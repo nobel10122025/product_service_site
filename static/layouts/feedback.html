@@ -1,0 +1,45 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/static/css/feedback.css">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Bree Serif">
+        </head>
+    <body>
+        <form id="survey-form">
+           <fieldset>
+               <div id="textboxes">
+                <H2 id="description"><center>Your experience is most welcome</center></H2>
+
+          <label id="name-label" for="name">Name :</label>
+          <input type="text" id="name" placeholder="enter your name" required>  <br>
+          <label id="email-label" for="email">Email :</label>
+          <input type="email" id="email" placeholder="enter your E-mail id" required>   <br>
+          <label for="number" id="number-label">Mobile number :</label>
+          <input type="tel" id="number" placeholder="enter your mobile number" required><br>
+           <label for="number1" id="number-label">Age (optional) :</label>
+          <input type="number" id="number1" placeholder="enter your age" min="5" max="150"><br>
+          <label id="gender-label" for=gender>Gender :</label>
+          <input id=gender-male type="radio" name="gender">Male 
+          <input id=gender-female type="radio" name="gender">Female <br>
+          <label for="dropdown" >Which area did you enjoy the most?</label>
+          <select name="course" id="dropdown" >
+              <option value="Fast delivery">fast delivery</option>
+              <option value="Product-quality">Product quality</option>
+              <option value="customer service">customer service</option>
+              <option value="variety">variety in products</option>
+              <option value="None">None</option>
+          </select>
+          <p>What are the areas the needs an improvement?</p>
+        <input type="checkbox">delivery<br>
+        <input type="checkbox">customer service<br>
+        <input type="checkbox">price<br>
+        <input type="checkbox">poor quality<br>
+        <input type="checkbox">damaged<br>
+        <input type="checkbox">none of the above<br>
+        </center>
+        </div>
+        <p id="ex-label" for="ex">share your experience here</p>
+                <textarea id="ex" type="text" placeholder="your comments" ></textarea>
+     <form ><center><button type="submit" id="submit" formaction="thanks.html">Submit</button></center></form>   
+    </fieldset></form>
+    </body>
+</html>    
